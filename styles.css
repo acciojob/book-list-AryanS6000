@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+ body{
+	  font-family: Arial, sans-serif;
+      margin: 30px;
+ }
+.form-group {
+      margin-bottom: 20px;
+    }
+input {
+      padding: 8px;
+      margin-right: 10px;
+    }
+button {
+      padding: 8px 12px;
+    }
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+.delete {
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
