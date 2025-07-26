@@ -1,6 +1,7 @@
  const submitBtn = document.getElementById("submit");
 
- submitBtn.addEventListner("click",function(){
+ submitBtn.addEventListener("click", function () {
+
 	 const title = document.getElementById("title").value.trim();
 	 const author = document.getElementById("author").value.trim();
 	 const isbn = document.getElementById("isbn").value.trim();
